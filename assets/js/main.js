@@ -144,6 +144,7 @@ function formActions() {
 			});
 	}
 	// იგივე ფუნქცია async await ის გამოყენებით
+
 	// async function addNewUserAsync(info) {
 	// 	try {
 	// 		const response = await fetch(
@@ -199,7 +200,7 @@ function formActions() {
 			zip_code: userZipValue,
 		};
 		//  TODO: თუ user_id.value არის ცარიელი (თავიდან ცარიელია) მაშინ უნდა შევქმნათ  -->  addNewUser(user);
-		// თუ დაედითებას ვაკეთებთ, ჩვენ ვანიჭებთ მნიშვნელობას userActions() ფუნქციაში
+		// თუ დაედითებას ვაკეთებთ, ჩვენ ვანიჭებთ მნიშვნელობას userActions ფუნქციაში
 		// TODO: თუ user_id.value არის (არაა ცარიელი სტრინგი) მაშინ უნდა დავაედიტოთ, (როცა ფორმს ედითის ღილაკის შემდეგ იუზერის ინფუთით ვავსებთ, ვაედითებთ და ვასაბმითებთ) -->  updateUser(user);
 
 		// console.log(user, JSON.stringify(user));
